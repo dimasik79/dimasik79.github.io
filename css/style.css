@@ -1,0 +1,156 @@
+.content {
+	width: 1000px;
+	/*justify-content: center;*/
+	margin: 0 auto;
+}
+
+* {
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+.content nav ul {
+	list-style-type: none;
+	
+
+	
+}
+
+.content nav ul li {
+	margin-right: 30px;
+	flex-wrap: row;
+	flex-direction: row;
+	
+}
+
+content nav ul li:last-child {
+	margin-right: 0;
+}
+
+#logo {
+	justify-content: left;
+}
+
+.d-flex{
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+}
+
+li a {
+	text-decoration: none;
+	border-collapse: collapse;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	
+
+}
+
+li a:hover {
+	box-shadow: inset 0px 0px 5px 1px rgba(226, 226, 226, 0.9);
+}
+
+ul {
+	margin-top: 0;
+}
+
+h1 {
+	margin-bottom: 0;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+header {
+	background-color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-bottom: 0;
+	padding-bottom: 3px;
+}
+
+section {
+	border-top: 1px solid black;
+	justify-content: left;
+	background-color: #fff;
+	margin-bottom: 0;
+	margin-top: 0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-bottom: 30px;
+	padding-left: 5px;
+}
+
+article p {
+	margin-left: 5px;
+}
+
+footer {
+
+	margin-top: 0;
+	justify-content: center;
+	background-color: #f2f2f2;
+	
+
+}
+
+
+
+footer p {
+	display:flex;
+	justify-content: center;
+	padding-top: 10px;
+	color: gray;
+	font-size: small;
+	font-family:Arial, sans-serif;
+}
+
+.title-read-more {
+	text-decoration: none;
+
+}
+
+.title-read-more h2 {
+	margin-left: 20px;
+}
+
+.read-more {
+	text-decoration: none;
+	background-color: #96f4ff;
+	border-radius: 15px;
+	margin-left: 10px;
+	padding: 4px;
+
+}
+
+
+.read-more:hover {
+	opacity: 0.5;
+}
+
+.read-more:visited {
+	color: navy;
+}
+
+.article-section p {
+	margin-left: 15px;
+}
+
+.article-section {
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+.article-section iframe {
+	margin-bottom: 5px;
+
+}
+
